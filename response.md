@@ -20,7 +20,7 @@ the required api are implemented by ruby on rails in simple api mode.
 - [x] The total number of masks and dollar value of transactions within a date range.
   - Implemented at GET /mask_transactions API.
 - [ ] Search for pharmacies or masks by name, ranked by relevance to the search term.
-  - Implemented at xxx API.
+  - Implemented at GET /pharmacies/search and GET /pharmacy_masks/search API, but didnt implement the functionality of ranking relenvance.
 - [x] Process a user purchases a mask from a pharmacy, and handle all relevant data changes in an atomic transaction.
   - Implemented at POST /mask_transactions API.
 ### A.2. API Document
